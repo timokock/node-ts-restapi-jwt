@@ -1,0 +1,19 @@
+POST http://localhost:4000/api/auth/register
+
+{
+    "test": "Hello Register"
+}
+
+###
+
+POST http://localhost:4000/api/auth/login
+
+{
+    "test": "Hello Login"
+}
+
+###
+
+GET http://localhost:4000/api/profile
+
+###
